@@ -20,8 +20,8 @@ plr.Character["LeftHand"]:AddPropertyEmulator("Size") -- fake size
             v:Disable() -- disable property changed
         end
 
-        plr.Character["RightHand"].Size = Vector3.new(15, 3, 2)
-        plr.Character["LeftHand"].Size = Vector3.new(15, 3, 2)
+        plr.Character["RightHand"].Size = Vector3.new(20, 3, 2)
+        plr.Character["LeftHand"].Size = Vector3.new(20, 3, 2)
         plr.Character["RightHand"].Massless = true
         plr.Character["LeftHand"].Massless = true
         enabled = true
